@@ -75,7 +75,11 @@ const Assets = {
   GameMaker: a('gamemaker.png'),
   DotNet: a('dotnet.png'),
   Blazor: a('blazor.svg'),
-  SQL: a('sql.svg')
+  SQL: a('sql.svg'),
+  Wolf: a('wolf.svg'),
+  Clipboard: a('clipboard.svg'),
+  Potato: a('potato.svg'),
+  Gears: a('gears.svg'),
 };
 
 export default Assets;

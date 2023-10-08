@@ -30,13 +30,6 @@ const MY_SKILLS = [
     name: '.NET'
   }),
   s({
-    slug: 'sql',
-    color: 'blue',
-    description: 'SQL',
-    logo: Assets.SQL,
-    name: 'SQL'
-  }),
-  s({
     slug: 'go',
     color: 'blue',
     description: 'Go',
@@ -70,6 +63,13 @@ const MY_SKILLS = [
     description: 'React',
     logo: Assets.ReactJs,
     name: 'React'
+  }),
+  s({
+    slug: 'sql',
+    color: 'blue',
+    description: 'SQL',
+    logo: Assets.SQL,
+    name: 'SQL'
   }),
   s({
     slug: 'gamemaker',

@@ -15,7 +15,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     name: 'Associate Software Engineer',
     color: '#ffffff',
     links: [],
-    logo: Assets.Unknown,
+    logo: Assets.Wolf,
     shortDescription: ''
   },
   {
@@ -30,7 +30,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     name: 'Associate Software Engineer',
     color: '#ffffff',
     links: [],
-    logo: Assets.Unknown,
+    logo: Assets.Gears,
     shortDescription: ''
   },
   {
@@ -45,7 +45,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     name: 'Software Engineer',
     color: '#ffffff',
     links: [],
-    logo: Assets.Unknown,
+    logo: Assets.Clipboard,
     shortDescription: ''
   },
   {
@@ -60,7 +60,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     name: 'Software Developer',
     color: '#ffffff',
     links: [],
-    logo: Assets.Unknown,
+    logo: Assets.Potato,
     shortDescription: ''
   }
 ];
