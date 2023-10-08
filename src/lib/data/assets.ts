@@ -71,11 +71,11 @@ const Assets = {
   Unocss: a('unocss.svg'),
   Ruvy: a('ruvy.svg'),
   Postcss: a('postcss.svg'),
-  Unity: a('unity.svg'),
-  GameMaker: a('gamemaker.svg'),
-  AspNet: a('aspnet.svg'),
+  Unity: a('unity.png'),
+  GameMaker: a('gamemaker.png'),
+  DotNet: a('dotnet.png'),
   Blazor: a('blazor.svg'),
-  MSSQL: a('mssql.svg')
+  SQL: a('sql.svg')
 };
 
 export default Assets;

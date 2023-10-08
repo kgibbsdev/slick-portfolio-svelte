@@ -51,18 +51,18 @@ const MY_SKILLS = [
     name: 'Unity'
   }),
   s({
-    slug: 'AspNet',
+    slug: 'DotNet',
     color: 'blue',
-    description: 'ASP.NET',
-    logo: Assets.AspNet,
-    name: 'ASP.NET'
+    description: '.NET',
+    logo: Assets.DotNet,
+    name: '.NET'
   }),
   s({
-    slug: 'MSSQL',
+    slug: 'SQL',
     color: 'blue',
-    description: 'MSSQL',
-    logo: Assets.MSSQL,
-    name: 'MSSQL'
+    description: 'SQL',
+    logo: Assets.SQL,
+    name: 'SQL'
   }),
   s({
     slug: 'Blazor',
