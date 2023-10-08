@@ -71,6 +71,20 @@ const MY_SKILLS = [
     logo: Assets.Blazor,
     name: 'Blazor'
   }),
+  s({
+    slug: 'go',
+    color: 'blue',
+    description: 'Go',
+    logo: Assets.Go,
+    name: 'Go'
+  }),
+  s({
+    slug: 'javascript',
+    color: 'blue',
+    description: 'Javascript',
+    logo: Assets.JavaScript,
+    name: 'Javascript'
+  })
 ];
 
 export default MY_SKILLS;
