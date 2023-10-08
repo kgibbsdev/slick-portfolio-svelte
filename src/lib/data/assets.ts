@@ -70,7 +70,12 @@ const Assets = {
   Jest: a('jest.png'),
   Unocss: a('unocss.svg'),
   Ruvy: a('ruvy.svg'),
-  Postcss: a('postcss.svg')
+  Postcss: a('postcss.svg'),
+  Unity: a('unity.svg'),
+  GameMaker: a('gamemaker.svg'),
+  AspNet: a('aspnet.svg'),
+  Blazor: a('blazor.svg'),
+  MSSQL: a('mssql.svg')
 };
 
 export default Assets;

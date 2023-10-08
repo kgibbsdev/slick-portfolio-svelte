@@ -29,6 +29,48 @@ const MY_SKILLS = [
     logo: Assets.Docker,
     name: 'Docker'
   }),
+  s({
+    slug: 'Firebase',
+    color: 'orange',
+    description: 'Firebase',
+    logo: Assets.Firebase,
+    name: 'Firebase'
+  }),
+  s({
+    slug: 'GameMaker',
+    color: 'blue',
+    description: 'GameMaker',
+    logo: Assets.GameMaker,
+    name: 'GameMaker'
+  }),
+  s({
+    slug: 'Unity',
+    color: 'white',
+    description: 'Unity',
+    logo: Assets.Unity,
+    name: 'Unity'
+  }),
+  s({
+    slug: 'AspNet',
+    color: 'blue',
+    description: 'ASP.NET',
+    logo: Assets.AspNet,
+    name: 'ASP.NET'
+  }),
+  s({
+    slug: 'MSSQL',
+    color: 'blue',
+    description: 'MSSQL',
+    logo: Assets.MSSQL,
+    name: 'MSSQL'
+  }),
+  s({
+    slug: 'Blazor',
+    color: 'blue',
+    description: 'Blazor',
+    logo: Assets.Blazor,
+    name: 'Blazor'
+  }),
 ];
 
 export default MY_SKILLS;
