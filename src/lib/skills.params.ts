@@ -84,7 +84,36 @@ const MY_SKILLS = [
     description: 'Javascript',
     logo: Assets.JavaScript,
     name: 'Javascript'
+  }),
+  s({
+    slug: 'typescript',
+    color: 'blue',
+    description: 'Typescript',
+    logo: Assets.TypeScript,
+    name: 'Typescript'
+  }),
+  s({
+    slug: 'angular',
+    color: 'red',
+    description: 'Angular',
+    logo: Assets.Angular,
+    name: 'Angular'
+  }),
+  s({
+    slug: 'react',
+    color: 'blue',
+    description: 'React',
+    logo: Assets.ReactJs,
+    name: 'React'
+  }),
+  s({
+    slug: 'css',
+    color: 'blue',
+    description: 'CSS',
+    logo: Assets.CSS,
+    name: 'CSS'
   })
+
 ];
 
 export default MY_SKILLS;

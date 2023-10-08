@@ -3,51 +3,66 @@ import { getSkills } from './skills.params';
 import { ContractType, type Experience } from './types';
 
 const MY_EXPERIENCES: Array<Experience> = [
-	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
-		color: '#ffffff',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
-	},
-	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: '#ffffff',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
-		color: '#ffffff',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
-	}
+  {
+    slug: 'wolfjaw-studios',
+    company: 'Wolfjaw Studios',
+    description: 'Developing online services for games.',
+    contract: ContractType.FullTime,
+    type: 'Software Development',
+    location: 'Home',
+    period: { from: new Date('12-05-2022') },
+    skills: getSkills('cpp', 'go'),
+    name: 'Associate Software Engineer',
+    color: '#ffffff',
+    links: [],
+    logo: Assets.Unknown,
+    shortDescription: ''
+  },
+  {
+    slug: 'continental-engineering-services',
+    company: 'Continental Engineering Services',
+    description: 'Creating and maintaining legacy tools for project managers and engineers using C#, .NET, and Visual Studio Tools for Office.',
+    contract: ContractType.FullTime,
+    type: 'Software Development',
+    location: 'Auburn Hills, MI',
+    period: { from: new Date('April 2021'), to: new Date('November 2022') },
+    skills: getSkills('csharp', 'dotnet', 'sql'),
+    name: 'Associate Software Engineer',
+    color: '#ffffff',
+    links: [],
+    logo: Assets.Unknown,
+    shortDescription: ''
+  },
+  {
+    slug: 'finys',
+    company: 'Finys',
+    description: 'Maintaining and developing new features for a property and casualty insurance software tools sweet.',
+    contract: ContractType.FullTime,
+    type: 'Software Development',
+    location: 'Troy, MI',
+    period: { from: new Date('11/5/2020'), to: new Date('3/5/2021') },
+    skills: getSkills('angular', 'csharp', 'css', 'typescript'),
+    name: 'Software Engineer',
+    color: '#ffffff',
+    links: [],
+    logo: Assets.Unknown,
+    shortDescription: ''
+  },
+  {
+    slug: 'spud-software',
+    company: 'Spud Software',
+    description: 'Creating front-ends for web applications and a mobile application for medium-sized businesses.',
+    contract: ContractType.FullTime,
+    type: 'Software Development',
+    location: 'Grand Blanc, MI',
+    period: { from: new Date('April 2019'), to: new Date('September 2020') },
+    skills: getSkills('react', 'csharp', 'css', 'typescript'),
+    name: 'Software Developer',
+    color: '#ffffff',
+    links: [],
+    logo: Assets.Unknown,
+    shortDescription: ''
+  }
 ];
 
 export default MY_EXPERIENCES;
