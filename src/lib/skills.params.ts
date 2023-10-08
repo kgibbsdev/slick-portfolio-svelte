@@ -9,63 +9,63 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 
 const MY_SKILLS = [
   s({
-    slug: 'C++',
+    slug: 'cpp',
     color: 'blue',
     description: 'C++',
     logo: Assets.Cpp,
     name: 'C++'
   }),
   s({
-    slug: 'Csharp',
+    slug: 'csharp',
     color: 'blue',
     description: 'C#',
     logo: Assets.Csharp,
     name: 'C#'
   }),
   s({
-    slug: 'Docker',
+    slug: 'docker',
     color: 'blue',
     description: 'Docker',
     logo: Assets.Docker,
     name: 'Docker'
   }),
   s({
-    slug: 'Firebase',
+    slug: 'firebase',
     color: 'orange',
     description: 'Firebase',
     logo: Assets.Firebase,
     name: 'Firebase'
   }),
   s({
-    slug: 'GameMaker',
+    slug: 'gamemaker',
     color: 'blue',
     description: 'GameMaker',
     logo: Assets.GameMaker,
     name: 'GameMaker'
   }),
   s({
-    slug: 'Unity',
+    slug: 'unity',
     color: 'white',
     description: 'Unity',
     logo: Assets.Unity,
     name: 'Unity'
   }),
   s({
-    slug: 'DotNet',
+    slug: 'dotnet',
     color: 'blue',
     description: '.NET',
     logo: Assets.DotNet,
     name: '.NET'
   }),
   s({
-    slug: 'SQL',
+    slug: 'sql',
     color: 'blue',
     description: 'SQL',
     logo: Assets.SQL,
     name: 'SQL'
   }),
   s({
-    slug: 'Blazor',
+    slug: 'blazor',
     color: 'blue',
     description: 'Blazor',
     logo: Assets.Blazor,
