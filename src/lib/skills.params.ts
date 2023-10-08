@@ -23,34 +23,6 @@ const MY_SKILLS = [
     name: 'C#'
   }),
   s({
-    slug: 'docker',
-    color: 'blue',
-    description: 'Docker',
-    logo: Assets.Docker,
-    name: 'Docker'
-  }),
-  s({
-    slug: 'firebase',
-    color: 'orange',
-    description: 'Firebase',
-    logo: Assets.Firebase,
-    name: 'Firebase'
-  }),
-  s({
-    slug: 'gamemaker',
-    color: 'blue',
-    description: 'GameMaker',
-    logo: Assets.GameMaker,
-    name: 'GameMaker'
-  }),
-  s({
-    slug: 'unity',
-    color: 'white',
-    description: 'Unity',
-    logo: Assets.Unity,
-    name: 'Unity'
-  }),
-  s({
     slug: 'dotnet',
     color: 'blue',
     description: '.NET',
@@ -63,13 +35,6 @@ const MY_SKILLS = [
     description: 'SQL',
     logo: Assets.SQL,
     name: 'SQL'
-  }),
-  s({
-    slug: 'blazor',
-    color: 'blue',
-    description: 'Blazor',
-    logo: Assets.Blazor,
-    name: 'Blazor'
   }),
   s({
     slug: 'go',
@@ -105,6 +70,41 @@ const MY_SKILLS = [
     description: 'React',
     logo: Assets.ReactJs,
     name: 'React'
+  }),
+  s({
+    slug: 'gamemaker',
+    color: 'blue',
+    description: 'GameMaker',
+    logo: Assets.GameMaker,
+    name: 'GameMaker'
+  }),
+  s({
+    slug: 'unity',
+    color: 'white',
+    description: 'Unity',
+    logo: Assets.Unity,
+    name: 'Unity'
+  }),
+  s({
+    slug: 'blazor',
+    color: 'blue',
+    description: 'Blazor',
+    logo: Assets.Blazor,
+    name: 'Blazor'
+  }),
+  s({
+    slug: 'docker',
+    color: 'blue',
+    description: 'Docker',
+    logo: Assets.Docker,
+    name: 'Docker'
+  }),
+  s({
+    slug: 'firebase',
+    color: 'orange',
+    description: 'Firebase',
+    logo: Assets.Firebase,
+    name: 'Firebase'
   }),
   s({
     slug: 'css',
