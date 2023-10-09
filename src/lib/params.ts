@@ -46,32 +46,18 @@ export const HOME: HomePageParams = {
   name: 'Kyle',
   lastName: 'Gibbs',
   description:
-    'Hey there! Thanks for checking out my portfolio. I am a game developer and software engineer with a passion for learning and creating. I am currently working as a software engineer at Wolfjaw Studios. ',
+    'Hey there! Thanks for checking out my portfolio. I am a game developer and software engineer with a passion ' +
+    'for learning and creating. I have a degree in Computer Science with a focus in Software Engineering from the University of Michigan - Flint. ' +
+    'I am currently working as a software engineer at Wolfjaw Studios. ',
   links: [
-    { platform: Platform.GitHub, link: 'https://github.com/' },
+    { platform: Platform.GitHub, link: 'https://github.com/kgibbsdev' },
+    {
+      platform: Platform.Email,
+      link: 'kyle@kylegibbs.dev'
+    },
     {
       platform: Platform.Linkedin,
       link: 'https://www.linkedin.com/'
-    },
-    {
-      platform: Platform.Twitter,
-      link: 'https://twitter.com/'
-    },
-    {
-      platform: Platform.StackOverflow,
-      link: 'https://stackoverflow.com/'
-    },
-    {
-      platform: Platform.Email,
-      link: 'riadh-adrani@hotmail.fr'
-    },
-    {
-      platform: Platform.Youtube,
-      link: 'https://www.youtube.com'
-    },
-    {
-      platform: Platform.Facebook,
-      link: 'https://www.facebook.com'
     }
   ]
 };

@@ -80,6 +80,9 @@ const Assets = {
   Clipboard: a('clipboard.svg'),
   Potato: a('potato.svg'),
   Gears: a('gears.svg'),
+  Tools: a('tools.svg'),
+  Insurance: a('insurance.svg'),
+  Door: a('door.svg'),
 };
 
 export default Assets;

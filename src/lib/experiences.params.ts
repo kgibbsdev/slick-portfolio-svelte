@@ -45,7 +45,22 @@ const MY_EXPERIENCES: Array<Experience> = [
     name: 'Fullstack Software Engineer',
     color: '#ffffff',
     links: [],
-    logo: Assets.Clipboard,
+    logo: Assets.Insurance,
+    shortDescription: ''
+  },
+  {
+    slug: 'dreaming-door-studios',
+    company: 'Dreaming Door Studios',
+    description: 'Created a tool to extract game dialogue for translation by a 3rd party and then return the translated dialogue to the game, provided bug fixes for upcoming DLC expansion.',
+    contract: ContractType.Contract,
+    type: 'Software Development',
+    location: 'Home',
+    period: { from: new Date('October 2020'), to: new Date('November 2020') },
+    skills: getSkills('csharp', 'unity'),
+    name: 'Tools Devloper',
+    color: '#ffffff',
+    links: [],
+    logo: Assets.Door,
     shortDescription: ''
   },
   {
@@ -56,7 +71,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     type: 'Software Development',
     location: 'Grand Blanc, MI',
     period: { from: new Date('April 2019'), to: new Date('September 2020') },
-    skills: getSkills('react', 'csharp', 'css', 'typescript'),
+    skills: getSkills('react', 'csharp', 'css', 'typescript', 'javascript'),
     name: 'Front-End Developer',
     color: '#ffffff',
     links: [],

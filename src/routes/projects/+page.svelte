@@ -70,6 +70,15 @@
 	});
 </script>
 
+<h2 class="mb-5 text-center">Github Contributions</h2>
+<a target="_blank" rel="noreferrer noopener" href="http://github.com/kgibbsdev">
+	<img
+		class="contributions-img"
+		src="https://ghchart.rshah.org/8546EA/kgibbsdev"
+		alt="Kyle Gibbs' Github Contributions Chart"
+	/>
+</a>
+
 <SearchPage {title} on:search={onSearch}>
 	<div class="projects-filters">
 		{#each filters as tech}
@@ -93,6 +102,12 @@
 </SearchPage>
 
 <style lang="scss">
+	.contributions-img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 60%; /* Reducing size by 40% */
+	}
 	.projects-list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
