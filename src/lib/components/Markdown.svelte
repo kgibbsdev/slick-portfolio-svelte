@@ -21,7 +21,10 @@
 		if (window) {
 			const parsed = marked.parse(content);
 
-			container.innerHTML = sanitizer.sanitize(parsed);
+			container.innerHTML = sanitizer.sanitize(parsed, {
+				ALLOWED_TAGS: ['a'],
+				ALLOWED_ATTR: ['target', 'href', 'rel']
+			});
 
 			Prism.highlightAllUnder(container);
 		}

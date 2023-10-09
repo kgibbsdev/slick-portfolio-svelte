@@ -35,7 +35,7 @@
 		</div>
 	{:else if result.length === items.length}
 		<!-- Top 3 Skills Section -->
-		<h2 class="mt-10 mb-5 text-center">Professional Experience (Current)</h2>
+		<h2 class="mt-10 mb-5 text-center">Professional Experience - Current</h2>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 mb-10">
 			{#each result.slice(0, 4) as skill (skill.slug)}
 				<Card
@@ -49,7 +49,7 @@
 			{/each}
 		</div>
 
-		<h2 class="mt-10 mb-5 text-center">Professional Experience (Previous)</h2>
+		<h2 class="mt-10 mb-5 text-center">Professional Experience - Previous</h2>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 mb-10">
 			{#each result.slice(4, 9) as skill (skill.slug)}
 				<Card
@@ -64,7 +64,7 @@
 		</div>
 
 		<!-- Previous Experience Section -->
-		<h2 class="mb-5 text-center">Personal Experience (Side Projects)</h2>
+		<h2 class="mb-5 text-center">Personal Experience - Side Projects</h2>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5">
 			{#each result.slice(9) as skill (skill.slug)}
 				<Card
