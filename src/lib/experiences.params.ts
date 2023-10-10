@@ -13,7 +13,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     period: { from: new Date('12-05-2022') },
     skills: getSkills('cpp', 'go'),
     name: 'Associate Software Engineer',
-    color: '#ffffff',
+    color: '#F20000',
     links: [],
     logo: Assets.Wolf,
     shortDescription: ''
@@ -28,7 +28,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     period: { from: new Date('April 2021'), to: new Date('November 2022') },
     skills: getSkills('csharp', 'dotnet', 'sql'),
     name: 'Associate Software Tools Engineer',
-    color: '#ffffff',
+    color: '#F4A920',
     links: [],
     logo: Assets.Gears,
     shortDescription: ''
@@ -43,7 +43,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     period: { from: new Date('11/5/2020'), to: new Date('3/5/2021') },
     skills: getSkills('angular', 'csharp', 'css', 'typescript'),
     name: 'Fullstack Software Engineer',
-    color: '#ffffff',
+    color: '#47C3F7',
     links: [],
     logo: Assets.Insurance,
     shortDescription: ''
@@ -58,7 +58,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     period: { from: new Date('October 2020'), to: new Date('November 2020') },
     skills: getSkills('csharp', 'unity'),
     name: 'Tools Devloper',
-    color: '#ffffff',
+    color: '#9247F7',
     links: [],
     logo: Assets.Door,
     shortDescription: ''
@@ -73,7 +73,7 @@ const MY_EXPERIENCES: Array<Experience> = [
     period: { from: new Date('April 2019'), to: new Date('September 2020') },
     skills: getSkills('react', 'csharp', 'css', 'typescript', 'javascript'),
     name: 'Front-End Developer',
-    color: '#ffffff',
+    color: '#13D02A',
     links: [],
     logo: Assets.Potato,
     shortDescription: ''

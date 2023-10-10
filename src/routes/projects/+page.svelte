@@ -70,7 +70,7 @@
 	});
 </script>
 
-<h2 class="mb-5 text-center">Github Contributions</h2>
+<h2 class="mb-5 text-center">Github Contributions - {new Date().getFullYear()}</h2>
 <a target="_blank" rel="noreferrer noopener" href="http://github.com/kgibbsdev">
 	<img
 		class="contributions-img"
